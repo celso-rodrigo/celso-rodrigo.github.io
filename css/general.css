@@ -1,0 +1,13 @@
+*{
+    border: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+        /* Paleta de cores */
+
+        --cor-1: #F6C0EE;
+        --cor-2: #CBA5D4;
+        --cor-3: #D8C3EB;
+        --cor-4: #B1A5D4;
+        --cor-5: #C0C0F6;
+}
