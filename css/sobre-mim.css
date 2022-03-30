@@ -16,6 +16,7 @@ div#perfil{
 }
 
 div#perfil h1{
+    font-family: 'Rancho', cursive;
     margin: 10px 0px 10px 0px;
 }
 
@@ -33,12 +34,15 @@ div#conteudo{
 
 div#conteudo h1, h3{
     text-align: center;
+    font-family: 'Rancho', cursive;
 }
 
 div#conteudo p, a{
     margin: 5px 0px 5px 0px;
     text-align: justify;
 }
+
+/* CLASSES */
 
 .link{
     text-align: center;
@@ -47,9 +51,21 @@ div#conteudo p, a{
 /* EXTRAS */
 
 body{
-    background-color: var(--cor-4)
+    background-image: radial-gradient(circle, var(--cor-2) 10%, var(--cor-3) 100%);
 }
 
 img{
     box-shadow: 0px 0px 2px black;
+}
+
+h2{
+    font-family: 'Rancho', cursive;
+}
+
+h3{
+    font-size: 1.75em;
+}
+
+strong{
+    color: var(--cor-2);
 }
