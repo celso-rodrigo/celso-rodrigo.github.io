@@ -1,5 +1,9 @@
+/* FONTES */
+
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Rancho&display=swap');
 /* font-family: 'Rancho', cursive; */
+
+/* Configurações padrões globais */
 
 *{
     border: 0px;
@@ -17,4 +21,8 @@
 
 .general-link a{
     color: var(--cor-1);
+}
+
+strong{
+    color: var(--cor-5);
 }
