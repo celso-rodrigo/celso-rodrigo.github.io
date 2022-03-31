@@ -15,6 +15,6 @@
         --cor-5: #3559D1;
 }
 
-a{
+.general-link a{
     color: var(--cor-1);
 }
