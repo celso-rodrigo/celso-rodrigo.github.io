@@ -1,43 +1,72 @@
-/* DIV PERFIL */
+/* ID MAIN */
 
-div#perfil{
+#main{
+    width: 800px;
     margin: auto;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 30px;
+    display: flex;
+}
+
+/* ID NOME */
+
+#nome{
+    font-size: 5em;
+    color: white;
     text-align: center;
-    padding: 20px;
+    margin-top: 50px;
+    font-family: 'Rancho', cursive;
+}
+
+/* ID PERFIL */
+
+#perfil{
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+    padding: 25px;
     box-shadow: 0px 0px 2px black;
-    max-width: 350px;
-    max-height: 640px;
+    width: 350px;
+    height: 550px;
     background-color: white;
     border-radius: 10px;
 }
 
-div#perfil h1{
-    font-family: 'Rancho', cursive;
-    margin: 10px 0px 10px 0px;
+#perfil img{
+    display: block;
+    width: 300px;
 }
 
-/* DIV CONTEUDO */
+/* ID CONTEUDO */
 
-div#conteudo{
-    box-shadow: 0px 0px 2px black;
+#conteudo{
+    height: 550px;
     max-width: 750px;
-    margin: auto;
-    margin-bottom: 25px;
-    padding: 15px;
+    box-shadow: 0px 0px 2px black;
+    padding: 25px;
     border-radius: 10px;
     background-color: white;
 }
 
-div#conteudo h1, h3{
+#conteudo h1, h3{
     text-align: center;
     font-family: 'Rancho', cursive;
+    font-size: 3em;
+}
+#conteudo h2{
+    text-align: center;
+    font-size: 2em;
+    padding: 30px 0px 15px 0px;
 }
 
-div#conteudo p, a{
-    margin: 5px 0px 5px 0px;
-    text-align: justify;
+#conteudo p{
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+
+/* ID PRINCIPAL-HABILIDADE */
+
+#pricipal-habilidade{
+    font-size: 1.2em;
 }
 
 /* DIV VOLTAR ÍNDICE */
@@ -66,7 +95,7 @@ div#conteudo p, a{
 /* CLASSES */
 
 .general-link{
-    text-align: center;
+    padding-bottom: 200px;
 }
 
 /* EXTRAS */
@@ -80,11 +109,7 @@ img{
     border-radius: 10px;
 }
 
-h1{
-    color: var(--cor-3);
-}
-
-h2{
+h1, h2{
     font-family: 'Rancho', cursive;
     color: var(--cor-3);
 }
@@ -93,6 +118,15 @@ h3{
     font-size: 1.75em;
 }
 
-#pricipal-habilidade{
-    font-size: 1.2em;
+p{
+    text-indent: 20px;
+    text-align: justify;
+}
+
+li{
+    margin-bottom: 5px;
+}
+
+li:nth-of-type(odd){
+    color: var(--cor-5);
 }
