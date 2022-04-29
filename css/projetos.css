@@ -105,3 +105,20 @@ section:nth-of-type(odd) h3 {
 }
 
 /* IDS */
+#indice{
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  border-radius: 25px;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 900;
+  width: 150px;
+  margin: 10px auto;
+  background-color: var(--cor-3);
+  box-shadow: 2 2 2px black;
+}
+
+#indice:hover {
+  background-color: var(--cor-2);
+}
