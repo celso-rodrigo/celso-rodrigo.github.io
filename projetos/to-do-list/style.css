@@ -1,0 +1,135 @@
+/* DEFAULTS */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* GENERAL */
+body {
+  background-color: rgb(60 , 60 , 75);
+}
+
+header {
+  color: white;
+  text-align: center;
+  font-size: 7.5em;
+  font-family: Franklin Gothic Medium , Arial , sans-serif;
+  font-weight: 900;
+  padding: 25px;
+}
+
+main {
+  background-color: whitesmoke;
+  width: 1300px;
+  margin: auto;
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 20px;
+  box-shadow: 2px 2px 2px rgba(0 , 0 , 0 , 0.4);
+}
+
+p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 1em;
+}
+
+li button {
+  display: inline-block;
+  border: 1px solid rgba(0 , 0 , 0 , 0.7);
+  padding: 12px;
+  border-radius: 50px;
+  font-size: 1.25em;
+  color: white;
+  margin-right: 20px;
+}
+
+ul button:hover {
+  box-shadow: 0 0 5px rgba(0 , 0 , 0 , 0.7);
+}
+
+/* CLASSES */
+.circle {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-weight: 900;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+/* IDS */
+#AdcTask {
+  display: block;
+  text-align: center;
+  margin: 15px auto;
+}
+
+#texto-tarefa {
+  width: 350px;
+  height: 30px;
+  font-size: 1.25em;
+  margin-right: 20px;
+  text-indent: 5px;
+}
+
+#criar-tarefa {
+  height: 45px;
+  padding: 10px;
+  font-size: 1.25em;
+  border-radius: 20px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+#criar-tarefa:hover {
+  background-color: rgb(51 , 51 , 65);
+  color: white;
+}
+
+#apaga-tudo {
+  background-color: rgb(116 , 43 , 43);
+}
+
+#mover-cima , #mover-baixo {
+  background-color: rgb(103 , 51 , 103);
+}
+
+#remover-finalizados {
+  background-color: rgb(50 , 98 , 50);
+}
+
+#remover-selecionado {
+  background-color: rgb(98 , 75 , 45);
+}
+
+#salvar-tarefas {
+  background-color: rgb(52 , 52 , 111);
+}
+
+#lista-tarefas {
+  text-align: justify;
+  list-style-position: inside;
+  font-size: 1.5em;
+  margin: 20px 100px;
+  border: 1px solid black;
+  border-radius: 25px;
+  background-color: rgb(201 , 201 , 202);
+  padding: 30px;
+  display: none;
+}

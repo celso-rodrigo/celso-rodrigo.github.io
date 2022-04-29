@@ -1,0 +1,88 @@
+/* DEFAULT */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* GENERAL */
+h1 {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 5em;
+  margin: 50px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.25em;
+  margin: 10px;
+}
+
+body {
+  background-color: rgb(225, 225, 225);
+}
+
+main {
+  max-width: 400px;
+  margin: auto;
+  border-radius: 25px;
+  background-color: white;
+  padding: 20px 300px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+p {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 700;
+  padding-top: 5px;
+}
+
+/* IDS */
+#colors {
+  display: flex;
+  justify-content: space-between;
+}
+
+#rgb-color {
+  text-align: center;
+  font-weight: 400;
+  font-size: 2em;
+}
+
+#reset-game {
+  text-align: center;
+  margin: auto;
+  margin-top: 25px;
+  color: white;
+  background-color: darkslategrey;
+  font-size: 2em;
+  width: 150px;
+  padding: 10px;
+  border-radius: 35px;
+}
+
+#reset-game:hover {
+  background-color: rgb(19, 36, 36);
+}
+
+/* CLASSES */
+.ball {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: red;
+  border: 3px solid black;
+}
+
+.ball:hover {
+  width: 50px;
+  height: 50px;
+  border: 3px solid red;
+}
+
+.titleEffect {
+  font-size: 1.75em;
+  letter-spacing: -25px;
+}
