@@ -1,0 +1,33 @@
+.projects {
+	display: flex;
+	flex-direction: column;
+	border-bottom: 1px solid var(--color-1);
+	text-align: center;
+}
+
+.projects-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	padding: 20px;
+}
+
+.projects-container .project {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 195px;
+	width: 345px;
+}
+
+.projects-container .project img {
+	height: 180px;
+	width: 320px;
+	transition: 0.4s;
+	border: 1px solid var(--color-1);
+}
+
+.projects-container .project img:hover {
+	height: 195px;
+	width: 345px;
+}

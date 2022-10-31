@@ -5,14 +5,14 @@
 }
 
 * {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .main {
-	background-color: var(--color-2);
-	width: 100%;
+  background-color: var(--color-2);
+  width: 100%;
 }
 
 .hero {
@@ -22,4 +22,32 @@
   background-size: cover;
   background-position: top center;
   background-attachment: fixed;
+}
+
+.container {
+  display: flex;
+	border-bottom: 1px solid var(--color-1);
+}
+
+.container * {
+  width: 50%;
+}
+
+.container-img {
+	display: flex;
+	justify-content: center;
+	padding: 25px;  
+}
+
+.container-content {
+	padding: 25px;
+}
+
+.container-content h1 {
+	text-align: center;
+	width: 100%;
+}
+
+.container-content p {
+  width: 100%;
 }
