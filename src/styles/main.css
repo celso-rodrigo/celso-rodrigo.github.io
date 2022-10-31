@@ -1,0 +1,25 @@
+:root {
+  --color-1: black;
+  --color-2: rgb(221, 221, 221);
+  --color-3: grey;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.main {
+	background-color: var(--color-2);
+	width: 100%;
+}
+
+.hero {
+  position: relative;
+  height: 600px;
+  background-image: url("../images/placeHolder.png");
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+}

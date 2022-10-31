@@ -2,10 +2,9 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="footer">
-      <h1>WIP</h1>
-      <p>Footer</p>
-    </div>
+    <footer className="footer">
+      <p>lorem lorem lorem lorem lorem lorem lorem lorem lorem</p>
+    </footer>
   );
 }
 
