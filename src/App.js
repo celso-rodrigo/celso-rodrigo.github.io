@@ -3,7 +3,6 @@ import Nav from "./components/Nav";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
-import Footer from "./components/Footer";
 import "./styles/";
 
 function App() {
@@ -11,11 +10,10 @@ function App() {
     <div className="app">
       <Nav />
       <div className="main">
-        <div className="hero" />
+        <div className="section hero" />
         <About />
         <Projects />
         <Contact />
-        <Footer />
       </div>
     </div>
   );

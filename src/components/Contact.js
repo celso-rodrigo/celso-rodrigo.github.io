@@ -6,7 +6,7 @@ import linkedin from "../images/linkedin.svg";
 
 function Contact() {
   return (
-    <div className="container">
+    <section id="contact" className="contact">
       <div className="container-content">
         <h1>Contato</h1>
         <p>Lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem  </p>
@@ -25,7 +25,7 @@ function Contact() {
       <div className="container-img">
         <img src={placeHolder} alt="wip"/>
       </div>
-    </div>
+    </section>
   );
 }
 

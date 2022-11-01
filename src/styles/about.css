@@ -1,0 +1,29 @@
+.about {
+	min-height: 100vh;
+  display: flex;
+	padding: 40px 0;
+	border-bottom: 1px solid var(--color-1);
+}
+
+.about * {
+  width: 50%;
+}
+
+.about-img {
+	display: flex;
+	justify-content: center;
+	padding: 25px;  
+}
+
+.about-content {
+	padding: 25px;
+}
+
+.about-content h1 {
+	text-align: center;
+	width: 100%;
+}
+
+.about-content p {
+  width: 100%;
+}
