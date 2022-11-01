@@ -10,6 +10,11 @@
   box-sizing: border-box;
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
 .hero {
   min-height: 100vh;
   position: relative;

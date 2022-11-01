@@ -3,7 +3,7 @@ import placeHolder from "../images/placeHolder.png";
 
 function Projects() {
   return (
-    <section id="projects" className="projects">
+    <section className="projects">
       <h1>Projetos</h1>
       <div className="projects-container">
         <div className="project">

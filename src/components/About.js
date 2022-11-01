@@ -3,7 +3,7 @@ import placeHolder from "../images/placeHolder.png";
 
 function About() {
   return (
-    <section id="about" className="about">
+    <section className="about">
       <div className="about-img">
         <img src={placeHolder} alt="wip"/>
       </div>

@@ -8,8 +8,8 @@ import "./styles/";
 function App() {
   return (
     <div className="app">
-      <Nav />
       <div className="main">
+        <Nav />
         <div className="section hero" />
         <About />
         <Projects />

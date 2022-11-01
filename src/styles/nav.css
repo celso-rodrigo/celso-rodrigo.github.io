@@ -8,11 +8,6 @@
 	z-index: 1;
 }
 
-
-.nav-link .active{
-  border-bottom: 3px solid var(--color-1);
-}
-
 .nav-options {
 	list-style: none;
 	display: flex;
