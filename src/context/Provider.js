@@ -4,10 +4,10 @@ import PropTypes from "prop-types";
 
 function Provider({ children }) {
   const [display, setDisplay] = useState(false);
-  const [projectToDisplay, setProjectToDisplay] = useState("");
+  const [projectToDisplay, setProjectToDisplay] = useState({});
 
-  const displayProject = (img) => {
-    if (img) setProjectToDisplay(img);
+  const displayProject = (info) => {
+    if (info) setProjectToDisplay(info);
     setDisplay((prevState) => (!prevState));
   };
 

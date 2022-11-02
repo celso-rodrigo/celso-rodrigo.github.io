@@ -1,10 +1,11 @@
 import React, { useContext, useEffect } from "react";
-import PropTypes from "prop-types";
 import Context from "../context/Context";
 import placeHolder from "../images/placeHolder.png";
 
-function ProjectInfo({img}) {
-  const { displayProject } = useContext(Context);
+function ProjectInfo() {
+  const { displayProject, projectToDisplay } = useContext(Context);
+
+  const {name, description, img, repoLink, siteLink} = projectToDisplay;
 
   useEffect(() => {
     const handleKeyPress = ({key}) => {
@@ -13,6 +14,7 @@ function ProjectInfo({img}) {
     document.addEventListener("keydown", handleKeyPress);
     return () => document.removeEventListener("keydown", handleKeyPress);
   }, []);
+
   return (
     <div className="project-info">
       <button className="close-btn" onClick={() => displayProject()}>
@@ -22,19 +24,15 @@ function ProjectInfo({img}) {
         <img src={img} alt="Project thumbnail." />
       </div>
       <div className="description">
-        <h2>Porject Name</h2>
-        <p>Lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem</p>
+        <h2>{name}</h2>
+        <p>{description}</p>
       </div>
       <div className="link-containers">
-        <a href="#">Projeto</a>
-        <a href="#">Repositório</a>
+        <a href={siteLink}>Projeto</a>
+        <a href={repoLink}>Repositório</a>
       </div>
     </div>
   );
 }
-
-ProjectInfo.propTypes = {
-  img: PropTypes.string.isRequired,
-};
 
 export default ProjectInfo;

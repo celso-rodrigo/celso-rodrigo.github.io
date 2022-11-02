@@ -11,13 +11,13 @@ function Contact() {
         <h1>Contato</h1>
         <p>Lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem  </p>
         <div className="contact-links">
-          <a href='#' target='_blank' rel='external'>
+          <a href='mailto:celsorodrigoma@gmail.com' title="celsorodrigoma@gmail.com">
             <img src={email} alt='Email' />
           </a>
-          <a href='#' target='_blank' rel='external'>
+          <a href='https://www.linkedin.com/in/celso-rodrigo-monteiro/' title="celso-rodrigo-monteiro"  target='_blank' rel="external noreferrer">
             <img src={linkedin} alt='LinkedIn' />
           </a>
-          <a href='#' target='_blank' rel='external'>
+          <a href='https://github.com/celso-rodrigo' title="celso-rodrigo" target='_blank' rel="external noreferrer">
             <img src={github} alt='GitHub' />
           </a>
         </div>
