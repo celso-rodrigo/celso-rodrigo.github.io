@@ -15,7 +15,7 @@
 	padding: 20px;
 }
 
-.projects-container .project {
+.projects-container .project-card {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -23,14 +23,14 @@
 	width: 345px;
 }
 
-.projects-container .project img {
+.project-card img {
 	height: 180px;
 	width: 320px;
 	transition: 0.4s;
 	border: 1px solid var(--color-1);
 }
 
-.projects-container .project img:hover {
+.project-card img:hover {
 	height: 195px;
 	width: 345px;
 }

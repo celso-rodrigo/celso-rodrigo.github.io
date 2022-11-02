@@ -1,14 +1,25 @@
-import React from "react";
+import React, { useContext, useEffect } from "react";
+import PropTypes from "prop-types";
+import Context from "../context/Context";
 import placeHolder from "../images/placeHolder.png";
 
-function ProjectInfo() {
+function ProjectInfo({img}) {
+  const { displayProject } = useContext(Context);
+
+  useEffect(() => {
+    const handleKeyPress = ({key}) => {
+      if (key === "Escape") displayProject();
+    };
+    document.addEventListener("keydown", handleKeyPress);
+    return () => document.removeEventListener("keydown", handleKeyPress);
+  }, []);
   return (
     <div className="project-info">
-      <div className="close-btn">
+      <button className="close-btn" onClick={() => displayProject()}>
         <img src={placeHolder} alt="WIP" />
-      </div>
+      </button>
       <div className="image">
-        <img src={placeHolder} alt="WIP" />
+        <img src={img} alt="Project thumbnail." />
       </div>
       <div className="description">
         <h2>Porject Name</h2>
@@ -21,5 +32,9 @@ function ProjectInfo() {
     </div>
   );
 }
+
+ProjectInfo.propTypes = {
+  img: PropTypes.string.isRequired,
+};
 
 export default ProjectInfo;

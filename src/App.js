@@ -1,5 +1,6 @@
-import React from "react";
-// import ProjectInfo from "./components/ProjectInfo";
+import React, { useContext } from "react";
+import Context from "./context/Context";
+import ProjectInfo from "./components/ProjectInfo";
 import Nav from "./components/Nav";
 import Hero from "./components/Hero";
 import About from "./components/About";
@@ -8,9 +9,11 @@ import Contact from "./components/Contact";
 import "./styles/";
 
 function App() {
+  const { display, projectToDisplay } = useContext(Context);
+
   return (
     <div className="main">
-      {/* <ProjectInfo /> */}
+      {display && <ProjectInfo img={projectToDisplay} />}
       <Nav />
       <Hero />
       <About />
