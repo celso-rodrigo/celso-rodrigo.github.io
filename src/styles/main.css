@@ -15,11 +15,8 @@
   flex-direction: column;
 }
 
-.hero {
-  min-height: 100vh;
-  position: relative;
-  background-image: url("../images/placeHolder.png");
-  background-size: cover;
-  background-position: top center;
-  background-attachment: fixed;
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: var(--color-2);
 }

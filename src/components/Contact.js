@@ -2,11 +2,12 @@ import React from "react";
 import email from "../images/email.svg";
 import github from "../images/github.svg";
 import linkedin from "../images/linkedin.svg";
+import placeHolder2 from "../images/placeHolder2.png";
 
 function Contact() {
   return (
     <section className="contact">
-      <div className="container-content">
+      <div className="content-container">
         <h1>Contato</h1>
         <p>Lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem  </p>
         <div className="contact-links">
@@ -20,6 +21,9 @@ function Contact() {
             <img src={github} alt='GitHub' />
           </a>
         </div>
+      </div>
+      <div className="img-container">
+        <img src={placeHolder2} alt="WIP" />
       </div>
     </section>
   );

@@ -6,6 +6,9 @@ function Nav() {
     <nav className="nav">
       <ul className="nav-options">
         <li className="nav-link">
+          <Link to="hero" spy={true} smooth={true} offset={0} duration={500}>Início</Link>
+        </li>
+        <li className="nav-link">
           <Link to="about" spy={true} smooth={true} offset={-40} duration={500}>Sobre</Link>
         </li>
         <li className="nav-link">
