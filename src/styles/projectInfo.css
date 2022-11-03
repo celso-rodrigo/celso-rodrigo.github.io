@@ -12,6 +12,10 @@
 	flex-direction: column;
 }
 
+.project-info * {
+	/* border: 1px solid red; */
+}
+
 .project-info .close-btn {
 	position: absolute;
 	right: 40px;
@@ -40,7 +44,9 @@
 .project-info .image {
 	display: flex;
 	align-items: flex-end;
+	justify-content: center;
 	height: 45%;
+	width: 100%;
 }
 
 .project-info .image img {
@@ -50,13 +56,6 @@
 	border-radius: 10px;
 }
 
-.project-info .description {
-	display: flex;
-	flex-direction: column;
-	height: 30%;
-	max-width: 50%;
-}
-
 .project-title {
 	color: var(--color-5);
 	font-size: 3rem;
@@ -64,13 +63,23 @@
 	padding: 30px 0;
 }
 
-.project-description {
+.project-text {
+	width: 60%;
+}
+
+.project-description p {
 	color: var(--color-1);
+	line-height: 25px;
+	padding-bottom: 10px;
+}
+
+.project-description a {
+	color: var(--color-5);
 }
 
 .project-info .link-containers {
 	display: flex;
-	padding-top: 30px;
+	padding-top: 70px;
 	justify-content: center;
 	gap: 40px;
 	width: 100%;

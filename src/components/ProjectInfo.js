@@ -23,13 +23,15 @@ function ProjectInfo() {
       <div className="image">
         <img src={img} alt="Project thumbnail." />
       </div>
-      <div className="description">
+      <div className="project-text">
         <h2 className="project-title">{name}</h2>
-        <p className="project-description">{description}</p>
+        <div className="project-description">
+          {description}
+        </div>
       </div>
       <div className="link-containers">
-        <a href={siteLink}>Projeto</a>
-        <a href={repoLink}>Repositório</a>
+        {siteLink.length !== 0 && <a href={siteLink} target="_blank" rel="noreferrer external">Projeto</a>}
+        <a href={repoLink} target="_blank" rel="noreferrer external">Repositório</a>
       </div>
     </div>
   );

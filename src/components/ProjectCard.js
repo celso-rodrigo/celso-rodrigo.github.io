@@ -9,7 +9,7 @@ function ProjectCard({info}) {
   const { img, name, id } = info;
 
   return (
-    <div onClick={() => displayProject(info)} className="project-card"  title={name}  data-aos="fade-left" data-aos-duration={`${1000 + id * 200}`}>
+    <div onClick={() => displayProject(info)} className="project-card"  title={name}  data-aos="fade-left" data-aos-duration={`${1000 + id * 200}`} tabIndex={id + 4}>
       <img src={img} alt="Project thumbnail."/>
     </div>
   );

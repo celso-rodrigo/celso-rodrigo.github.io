@@ -1,13 +1,15 @@
+import { tryCookingDesc } from "./descriptions";
 import placeHolder from "../images/placeHolder2.png";
+
 
 const projectsData = [
   {
     id: 1,
-    name: "Teste 01",
-    description: "Teste 01 Teste 01Teste 01Teste 01Teste 01Teste 01Teste 01Teste 01Teste 01 Teste 01 Teste 01 Teste 01 Teste 01Teste 01Teste 01Teste 01Teste 01Teste 01 Teste 01",
+    name: "TryCooking",
+    description: tryCookingDesc,
     img: placeHolder,
-    repoLink: "#",
-    siteLink: "#",
+    repoLink: "https://github.com/celso-rodrigo/TryCooking",
+    siteLink: "",
   },
   {
     id: 2,
