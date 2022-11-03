@@ -12,10 +12,6 @@
 	flex-direction: column;
 }
 
-.project-info * {
-	/* border: 1px solid red; */
-}
-
 .project-info .close-btn {
 	position: absolute;
 	right: 40px;
