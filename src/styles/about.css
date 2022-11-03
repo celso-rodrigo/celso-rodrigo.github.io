@@ -1,11 +1,11 @@
 .about {
 	z-index: 1;
-	padding-top: 40px 0;
+	padding: 40px 0;
 	gap: 30px;
   display: flex;
 	justify-content: center;
-	align-items: center;
-	height: 600px;
+	align-items: flex-start;
+	height: 750px;
 	border-top: 1px solid var(--color-4);
 	box-shadow: 0 -8px 15px -10px rgba(0, 0, 0, 0.2);
 }
@@ -14,6 +14,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	height: 100%;
 }
 
 .about-img img {
@@ -30,5 +31,25 @@
 }
 
 .about-content p {
-  width: 800px;
+  width: 500px;
+}
+
+@media screen and (max-width: 1024px) {
+	.about-img {
+		display: none;
+	}
+
+	.about-content p {
+		width: 595px;
+	}
+}
+
+@media screen and (max-width: 601px) {
+	.about {
+		height: 900px;
+	}
+
+	.about-content p {
+		width: 355px;
+	}
 }
