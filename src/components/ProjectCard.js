@@ -6,10 +6,10 @@ import PropTypes from "prop-types";
 function ProjectCard({info}) {
   const { displayProject } = useContext(Context);
 
-  const { img, name } = info;
+  const { img, name, id } = info;
 
   return (
-    <div onClick={() => displayProject(info)} className="project-card"  title={name}>
+    <div onClick={() => displayProject(info)} className="project-card"  title={name}  data-aos="fade-left" data-aos-duration={`${1000 + id * 200}`}>
       <img src={img} alt="Project thumbnail."/>
     </div>
   );

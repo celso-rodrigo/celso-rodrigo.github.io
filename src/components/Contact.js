@@ -12,7 +12,7 @@ function Contact() {
       </div>
       <div className="content-container">
         <h1>Contato</h1>
-        <p>Lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem  </p>
+        <p>Gostaria de conversar sobre algo ou me conhecer um pouco mais? Entre em contato!</p>
         <div className="contact-links">
           <a href='mailto:celsorodrigoma@gmail.com' title="celsorodrigoma@gmail.com">
             <img src={email} alt='Email' />
