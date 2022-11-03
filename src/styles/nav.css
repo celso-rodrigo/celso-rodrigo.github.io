@@ -16,7 +16,6 @@
 
 .nav-options {
   font-family: var(--font-1);
-  color: var(--color-1);
 	font-size: 1.3rem;
   list-style: none;
   display: flex;
@@ -34,6 +33,7 @@
 }
 
 .nav-link a {
+  color: var(--color-1);
   cursor: pointer;
 	transition: 0.1s;
 }

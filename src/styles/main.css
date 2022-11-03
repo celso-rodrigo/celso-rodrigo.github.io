@@ -35,6 +35,11 @@ p {
   color: var(--color-2);
 }
 
+a {
+	color: var(--color-5);
+}
+
+
 .main {
   display: flex;
   flex-direction: column;
