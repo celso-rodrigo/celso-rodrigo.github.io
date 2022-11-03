@@ -3,7 +3,7 @@
   padding: 10px;
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 100vw;
   height: 70px;
   z-index: 3;
   display: flex;
@@ -40,4 +40,34 @@
 
 .nav-link:hover a {
 	letter-spacing: 2px;
+}
+
+@media screen and (max-width: 1024px) {
+  .nav {
+    padding: 0;
+  }
+
+  .nav-options {
+    gap: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 601px) {
+  .nav-options {
+    gap: 0;
+    padding: 0;
+    font-size: 0.7rem;
+    width: 100%;
+  }
+
+  .nav-link {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .nav-options {
+    font-size: 0.7rem;
+  }
 }
