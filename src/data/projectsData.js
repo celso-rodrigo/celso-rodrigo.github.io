@@ -1,4 +1,4 @@
-import placeHolder from "../images/placeHolder.png";
+import placeHolder from "../images/placeHolder2.png";
 
 const projectsData = [
   {

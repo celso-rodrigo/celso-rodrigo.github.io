@@ -1,10 +1,27 @@
 .projects {
-	padding: 40px 0;
 	display: flex;
+	align-items: center;
 	flex-direction: column;
-	border-bottom: 1px solid var(--color-1);
 	text-align: center;
-  background-color: var(--color-2);
+	border-bottom: 1px solid var(--color-4);
+}
+
+.projects-title {
+	padding-bottom: 30px;
+  width: 79%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.projects-title hr {
+	height: 100%;
+	width: 100%;
+}
+
+.projects-title h1 {
+	font-size: 4rem;
+	width: 80%;
 }
 
 .projects-container {
@@ -12,7 +29,7 @@
 	justify-content: center;
 	flex-wrap: wrap;
 	gap: 40px;
-	padding: 20px;
+	padding-bottom: 30px;
 }
 
 .projects-container .project-card {

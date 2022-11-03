@@ -19,9 +19,6 @@ function App() {
       <About />
       <Projects />
       <Contact />
-      <footer>
-        lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem 
-      </footer>
     </div>
   );
 }

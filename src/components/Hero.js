@@ -1,12 +1,20 @@
 import React from "react";
-import placeHolder3 from "../images/placeHolder3.png";
-import placeHolder4 from "../images/placeHolder4.png";
+import placeHolder3 from "../images/test1.svg";
 
 function Hero() {
   return (
     <div className="hero">
-      <img src={placeHolder3} alt="WIP" className="hero-img-one"/>
-      <img src={placeHolder4} alt="WIP" className="hero-img-two"/>
+      <img src={placeHolder3} alt="WIP" className="hero-img"/>
+      <div className="hero-text">
+        <div>
+          <h2>Olá, mundo.</h2>
+          <h2>Eu sou o</h2>
+        </div>
+        <div>
+          <h1>Celso Rodrigo!</h1>
+          <h3>Desenvolvedor Web Front-End</h3>
+        </div>
+      </div>
     </div>
   );
 }

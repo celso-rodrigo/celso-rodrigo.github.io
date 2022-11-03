@@ -5,7 +5,11 @@ import projectsData from "../data/projectsData";
 function Projects() {
   return (
     <section className="projects">
-      <h1>Projetos</h1>
+      <div className="projects-title">
+        <hr />
+        <h1>Projetos</h1>
+        <hr />
+      </div>
       <div className="projects-container">
         {projectsData.map((project) => <ProjectCard info={project} key={project.id} />)}
       </div>

@@ -9,13 +9,13 @@ function Nav() {
           <Link to="hero" spy={true} smooth={true} offset={0} duration={500}>Início</Link>
         </li>
         <li className="nav-link">
-          <Link to="about" spy={true} smooth={true} offset={-40} duration={500}>Sobre</Link>
+          <Link to="about" spy={true} smooth={true} offset={-70} duration={500}>Sobre</Link>
         </li>
         <li className="nav-link">
-          <Link to="projects" spy={true} smooth={true} offset={-40} duration={500}>Projetos</Link>
+          <Link to="projects" spy={true} smooth={true} offset={-70} duration={500}>Projetos</Link>
         </li>
         <li className="nav-link">
-          <Link to="contact" spy={true} smooth={true} offset={-40} duration={500}>Contato</Link>
+          <Link to="contact" spy={true} smooth={true} offset={-70} duration={500}>Contato</Link>
         </li>
       </ul>
     </nav>

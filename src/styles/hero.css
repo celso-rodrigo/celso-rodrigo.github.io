@@ -1,23 +1,40 @@
 .hero {
   min-height: 100vh;
   position: relative;
-  background-image: url("../images/placeHolder.png");
+  background-image: url("../images/placeHolder5.png");
   background-size: cover;
   background-position: top center;
   background-attachment: fixed;
 }
 
-.hero-img-one {
+.hero-img {
 	position: absolute;
-	bottom: 0;
+	bottom: 5%;
 	right: 5%;
-	height: 375px;
+	height: 600px;
 }
 
-
-.hero-img-two {
+.hero-text {
 	position: absolute;
-	top: 20%;
-	left: 15%;
+	top: 25%;
+	left: 10%;
 	height: 375px;
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+
+.hero-text h1 {
+	font-size: 6rem;
+}
+
+.hero-text h2 {
+	font-size: 3rem;
+	padding-left: 8px;
+}
+
+.hero-text h3 {
+	font-size: 1.5rem;
+	padding-left: 8px;
+	color: var(--color-5);
 }

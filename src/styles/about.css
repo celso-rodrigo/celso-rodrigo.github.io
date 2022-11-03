@@ -1,18 +1,19 @@
 .about {
 	padding: 40px 0;
+	gap: 30px;
   display: flex;
-	border-bottom: 1px solid var(--color-1);
+	justify-content: center;
 	height: 400px;
-}
-
-.about * {
-  width: 50%;
 }
 
 .about-img {
 	display: flex;
 	justify-content: center;
-	padding: 25px;
+	align-items: center;
+}
+
+.about-img img {
+	height: 300px;
 }
 
 .about-content {
@@ -21,9 +22,9 @@
 
 .about-content h1 {
 	text-align: center;
-	width: 100%;
+	padding-bottom: 20px;
 }
 
 .about-content p {
-  width: 100%;
+  width: 800px;
 }
