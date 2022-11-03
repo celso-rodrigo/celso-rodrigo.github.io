@@ -1,6 +1,6 @@
 import React, { useContext, useEffect } from "react";
 import Context from "../context/Context";
-import placeHolder from "../images/placeHolder.png";
+import close from "../images/close.svg";
 
 function ProjectInfo() {
   const { displayProject, projectToDisplay } = useContext(Context);
@@ -18,14 +18,14 @@ function ProjectInfo() {
   return (
     <div className="project-info">
       <button className="close-btn" onClick={() => displayProject()}>
-        <img src={placeHolder} alt="WIP" />
+        <img src={close} alt="Botão para fechar." />
       </button>
       <div className="image">
         <img src={img} alt="Project thumbnail." />
       </div>
       <div className="description">
-        <h2>{name}</h2>
-        <p>{description}</p>
+        <h2 className="project-title">{name}</h2>
+        <p className="project-description">{description}</p>
       </div>
       <div className="link-containers">
         <a href={siteLink}>Projeto</a>

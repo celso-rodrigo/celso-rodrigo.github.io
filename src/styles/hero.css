@@ -1,7 +1,7 @@
 .hero {
   min-height: 100vh;
   position: relative;
-  background-image: url("../images/placeHolder5.png");
+  background-image: url("../images/heroBg.png");
   background-size: cover;
   background-position: top center;
   background-attachment: fixed;

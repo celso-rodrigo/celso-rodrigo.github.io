@@ -1,10 +1,10 @@
 import React from "react";
-import placeHolder3 from "../images/test1.svg";
+import heroImg from "../images/heroImg.svg";
 
 function Hero() {
   return (
     <div className="hero">
-      <img src={placeHolder3} alt="WIP" className="hero-img"/>
+      <img src={heroImg} alt="Ilustração do hero." className="hero-img"/>
       <div className="hero-text">
         <div>
           <h2>Olá, mundo.</h2>

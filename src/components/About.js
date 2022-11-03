@@ -1,5 +1,5 @@
 import React from "react";
-import placeHolder from "../images/test2.svg";
+import aboutImg from "../images/aboutImg.svg";
 
 function About() {
   return (
@@ -10,7 +10,7 @@ function About() {
         <p>About about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about about</p>
       </div>
       <div className="about-img">
-        <img src={placeHolder} alt="wip"/>
+        <img src={aboutImg} alt="Ilustração da sessão sobre."/>
       </div>
     </section>
   );

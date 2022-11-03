@@ -2,13 +2,13 @@ import React from "react";
 import email from "../images/email.svg";
 import github from "../images/github.svg";
 import linkedin from "../images/linkedin.svg";
-import placeHolder2 from "../images/test3.svg";
+import contactImg from "../images/contactImg.svg";
 
 function Contact() {
   return (
     <section className="contact">
       <div className="img-container">
-        <img src={placeHolder2} alt="WIP" />
+        <img src={contactImg} alt="Ilustração da sessão contato" />
       </div>
       <div className="content-container">
         <h1>Contato</h1>
