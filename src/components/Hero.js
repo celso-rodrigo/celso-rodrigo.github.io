@@ -11,7 +11,7 @@ function Hero() {
           <h2>Eu sou o</h2>
         </div>
         <div>
-          <h1>Celso Rodrigo!</h1>
+          <h1>Celso Rodrigo</h1>
           <h3>Desenvolvedor Web Front-End</h3>
         </div>
       </div>
