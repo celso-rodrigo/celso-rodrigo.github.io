@@ -15,6 +15,7 @@
 	justify-content: center;
 	align-items: center;
 	height: 100%;
+	padding: 0 0 90px 20px;
 }
 
 .about-img img {
@@ -30,11 +31,21 @@
 	padding-bottom: 20px;
 }
 
+.about-paragraph {
+	text-indent: 15px;
+	padding-bottom: 10px;
+	text-align: justify;
+}
+
 .about-content p {
   width: 500px;
 }
 
 @media screen and (max-width: 1024px) {
+	.about {
+		height: 650px;
+	}
+
 	.about-img {
 		display: none;
 	}
@@ -46,7 +57,7 @@
 
 @media screen and (max-width: 601px) {
 	.about {
-		height: 900px;
+		height: 850px;
 	}
 
 	.about-content p {
