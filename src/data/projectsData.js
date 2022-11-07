@@ -18,7 +18,7 @@ const projectsData = [
     description: whatToDoDesc,
     img: whatToDo,
     repoLink: "https://github.com/celso-rodrigo/whatToDo",
-    siteLink: "",
+    siteLink: "https://celso-rodrigo.github.io/whatToDo/",
   },
 ];
 
