@@ -9,3 +9,8 @@ export const whatToDoDesc = <>
   <p>WhatToDo é uma aplicação de lista de tarefas desenvolvida com React e Context API.</p>
   <p>Nela é possível fazer o CRUD (Create, Read, Update and Delete) das suas tarefas. Você também pode alterar o tema da aplicação e suas tarefas persistem mesmo ao atualizar a página.</p>
 </>;
+
+export const signUpPageDesc = <>
+  <p>Esta é uma aplicação que simula uma tela de cadastro de usuário em uma aplicação qualquer. Para cadastrar-se com sucesso é necessário preencher todos os campos de forma adequada.</p>
+  <p>Cada campo conta com suas próprias regras de negócio e validações, bloqueando o cadastro caso alguma delas não seja cumprida.</p>
+</>;

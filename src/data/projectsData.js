@@ -1,11 +1,19 @@
-import { tryCookingDesc, whatToDoDesc } from "./descriptions";
+import { tryCookingDesc, whatToDoDesc, signUpPageDesc } from "./descriptions";
 import tryCooking from "../images/tryCooking.png";
 import whatToDo from "../images/whatToDo.png";
-
+import signUpPage from "../images/signUpPage.png";
 
 const projectsData = [
   {
     id: 1,
+    name: "WhatToDo",
+    description: whatToDoDesc,
+    img: whatToDo,
+    repoLink: "https://github.com/celso-rodrigo/whatToDo",
+    siteLink: "https://celso-rodrigo.github.io/whatToDo/",
+  },
+  {
+    id: 2,
     name: "TryCooking",
     description: tryCookingDesc,
     img: tryCooking,
@@ -13,12 +21,12 @@ const projectsData = [
     siteLink: "",
   },
   {
-    id: 2,
-    name: "WhatToDo",
-    description: whatToDoDesc,
-    img: whatToDo,
-    repoLink: "https://github.com/celso-rodrigo/whatToDo",
-    siteLink: "https://celso-rodrigo.github.io/whatToDo/",
+    id: 3,
+    name: "Sign Up Page",
+    description: signUpPageDesc,
+    img: signUpPage,
+    repoLink: "https://github.com/celso-rodrigo/sign-up-page",
+    siteLink: "https://celso-rodrigo.github.io/sign-up-page",
   },
 ];
 
