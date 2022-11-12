@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.a54d24b7.css",
-    "main.js": "/static/js/main.d448b029.js",
+    "main.css": "/static/css/main.c1400d13.css",
+    "main.js": "/static/js/main.c2ba3dbf.js",
     "static/media/tryCooking.png": "/static/media/tryCooking.e537dc7039080197779a.png",
+    "static/media/signUpPage.png": "/static/media/signUpPage.8a8bfaf344d1803a80a1.png",
     "static/media/heroImg.svg": "/static/media/heroImg.e7fd0478451b8d72ff9b93b1ea475b66.svg",
     "static/media/whatToDo.png": "/static/media/whatToDo.954428379adc8dad21da.png",
     "static/media/contactImg.svg": "/static/media/contactImg.929ae9a64266eb14ffa5967d0a25fa63.svg",
@@ -12,11 +13,11 @@
     "static/media/linkedin.svg": "/static/media/linkedin.2eda7bddaacee15c44494bb63ca94165.svg",
     "static/media/email.svg": "/static/media/email.7828ea972566d7acd02102084ef56f46.svg",
     "static/media/close.svg": "/static/media/close.08233535a9321b39bf5f4a13e34fede0.svg",
-    "main.a54d24b7.css.map": "/static/css/main.a54d24b7.css.map",
-    "main.d448b029.js.map": "/static/js/main.d448b029.js.map"
+    "main.c1400d13.css.map": "/static/css/main.c1400d13.css.map",
+    "main.c2ba3dbf.js.map": "/static/js/main.c2ba3dbf.js.map"
   },
   "entrypoints": [
-    "static/css/main.a54d24b7.css",
-    "static/js/main.d448b029.js"
+    "static/css/main.c1400d13.css",
+    "static/js/main.c2ba3dbf.js"
   ]
 }
