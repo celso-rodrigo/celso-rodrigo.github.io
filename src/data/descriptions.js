@@ -14,3 +14,8 @@ export const signUpPageDesc = <>
   <p>Esta é uma aplicação que simula uma tela de cadastro de usuário em uma aplicação qualquer. Para cadastrar-se com sucesso é necessário preencher todos os campos de forma adequada.</p>
   <p>Cada campo conta com suas próprias regras de negócio e validações, bloqueando o cadastro caso alguma delas não seja cumprida.</p>
 </>;
+
+export const emailGeneratorDesc = <>
+  <p>Um tempo atrás um amigo estava me dizendo que não conseguia encontrar uma aplicação que gerasse múltiplos emails aleatórios únicos de uma só vez, então fiz um para ele bem simples usando apenas JavaScript. Agora eu decidi torná-lo maior e mais fácil de usar.</p>
+  <p>Nessa aplicação você pode gerar até 40.000 emails únicos e formatados da maneira que você preferir com apenas alguns clicks.</p>
+</>;
