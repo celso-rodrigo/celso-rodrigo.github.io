@@ -1,7 +1,7 @@
-import { tryCookingDesc, whatToDoDesc, signUpPageDesc, emailGeneratorDesc } from "./descriptions";
+import { tryCookingDesc, whatToDoDesc, newShoppingCartDesc, emailGeneratorDesc } from "./descriptions";
 import tryCooking from "../images/tryCooking.png";
 import whatToDo from "../images/whatToDo.png";
-import signUpPage from "../images/signUpPage.png";
+import newShoppingCart from "../images/newShoppingCart.png";
 import emailGenerator from "../images/emailGenerator.png";
 
 const projectsData = [
@@ -23,11 +23,11 @@ const projectsData = [
   },
   {
     id: 3,
-    name: "Sign Up Page",
-    description: signUpPageDesc,
-    img: signUpPage,
-    repoLink: "https://github.com/celso-rodrigo/sign-up-page",
-    siteLink: "https://celso-rodrigo.github.io/sign-up-page",
+    name: "New Shopping Cart",
+    description: newShoppingCartDesc,
+    img: newShoppingCart,
+    repoLink: "https://github.com/celso-rodrigo/new-shopping-cart",
+    siteLink: "https://celso-rodrigo.github.io/new-shopping-cart",
   },
   {
     id: 4,

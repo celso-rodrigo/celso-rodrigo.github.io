@@ -10,9 +10,9 @@ export const whatToDoDesc = <>
   <p>Nela é possível fazer o CRUD (Create, Read, Update and Delete) das suas tarefas. Você também pode alterar o tema da aplicação e suas tarefas persistem mesmo ao atualizar a página.</p>
 </>;
 
-export const signUpPageDesc = <>
-  <p>Esta é uma aplicação que simula uma tela de cadastro de usuário em uma aplicação qualquer. Para cadastrar-se com sucesso é necessário preencher todos os campos de forma adequada.</p>
-  <p>Cada campo conta com suas próprias regras de negócio e validações, bloqueando o cadastro caso alguma delas não seja cumprida.</p>
+export const newShoppingCartDesc = <>
+  <p>Este projeto é uma redesign do projeto <a href="https://github.com/celso-rodrigo/shopping-cart">Shopping Car</a>. Agora feito com React esse projeto possuí mais funcionalidades do que o antigo desenvolvido apenas com JavaScript, HTML e CSS.</p>
+  <p>New Shopping Cart é uma aplicação de e-commerce desenvolvido com auxílio da <a href="https://developers.mercadolivre.com.br/pt_br/itens-e-buscas">API do mercado livre</a>. Nele você pode buscar por produtos, adicionar ou remover eles ao seu carrinho e finalizar a compra escolhendo o método de pagamento desejado.</p>
 </>;
 
 export const emailGeneratorDesc = <>
