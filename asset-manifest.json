@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.f0756e6e.css",
-    "main.js": "/static/js/main.28f81a96.js",
+    "main.css": "/static/css/main.1adbd661.css",
+    "main.js": "/static/js/main.28e4de37.js",
     "static/media/tryCooking.png": "/static/media/tryCooking.e537dc7039080197779a.png",
     "static/media/emailGenerator.png": "/static/media/emailGenerator.6724a5f8f51087d2e020.png",
-    "static/media/signUpPage.png": "/static/media/signUpPage.8a8bfaf344d1803a80a1.png",
+    "static/media/newShoppingCart.png": "/static/media/newShoppingCart.35350962f0bdf4696e6d.png",
+    "static/media/heroBg.png": "/static/media/heroBg.d775b36d39ef9db2eefa.png",
     "static/media/heroImg.svg": "/static/media/heroImg.e7fd0478451b8d72ff9b93b1ea475b66.svg",
     "static/media/whatToDo.png": "/static/media/whatToDo.954428379adc8dad21da.png",
     "static/media/contactImg.svg": "/static/media/contactImg.929ae9a64266eb14ffa5967d0a25fa63.svg",
@@ -14,11 +15,11 @@
     "static/media/linkedin.svg": "/static/media/linkedin.2eda7bddaacee15c44494bb63ca94165.svg",
     "static/media/email.svg": "/static/media/email.7828ea972566d7acd02102084ef56f46.svg",
     "static/media/close.svg": "/static/media/close.08233535a9321b39bf5f4a13e34fede0.svg",
-    "main.f0756e6e.css.map": "/static/css/main.f0756e6e.css.map",
-    "main.28f81a96.js.map": "/static/js/main.28f81a96.js.map"
+    "main.1adbd661.css.map": "/static/css/main.1adbd661.css.map",
+    "main.28e4de37.js.map": "/static/js/main.28e4de37.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0756e6e.css",
-    "static/js/main.28f81a96.js"
+    "static/css/main.1adbd661.css",
+    "static/js/main.28e4de37.js"
   ]
 }
