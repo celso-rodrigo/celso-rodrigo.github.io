@@ -4,6 +4,6 @@
 
 @layer components {
   .nav-link {
-    @apply text-white  font-normal sm:text-2xl;
+    @apply text-white  font-normal cursor-pointer sm:text-2xl;
   }
 }

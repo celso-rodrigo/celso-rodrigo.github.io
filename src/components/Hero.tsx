@@ -2,7 +2,7 @@ import heroImage from "../assets/heroImg.svg"
 
 function Hero() {
   return (
-    <div className="flex justify-center items-center w-screen bg-heroBg bg-no-repeat bg-cover pt-24 pb-4 sm:pt-20 sm:h-screen">
+    <div className="hero flex justify-center items-center w-screen bg-heroBg bg-no-repeat bg-cover pt-24 pb-4 sm:pt-20 sm:h-screen">
       <div
         className="flex flex-col h-1/2 gap-2"
       >
