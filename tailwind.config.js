@@ -16,6 +16,9 @@ export default {
       fontFamily: {
 				"ubuntu": ['Ubuntu', 'ui-sans-serif', 'system-ui'],
 			},
+      backgroundImage: {
+				"heroBg": "url('./assets/heroBg.png')",
+			},
     },
   },
   plugins: [],
