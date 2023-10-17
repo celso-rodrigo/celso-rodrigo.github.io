@@ -15,6 +15,7 @@ function Hero() {
           <h1 className="font-bold text-4xl sm:text-6xl text-black">Celso Rodrigo</h1>
           <p className="font-medium text-blue text-lg sm:text-xl">Desenvolvedor Web Front-End</p>
         </div>
+        <Socials />
       </div>
       <img
         className="hidden w-2/5 max-h-96 md:block"

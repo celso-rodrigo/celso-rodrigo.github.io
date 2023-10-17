@@ -6,4 +6,8 @@
   .nav-link {
     @apply text-white  font-normal cursor-pointer sm:text-2xl;
   }
+
+  .social-icon-container {
+    @apply flex justify-center items-center w-10 sm:w-16
+  }
 }
