@@ -2,10 +2,11 @@ import { Link } from "react-scroll";
 
 function NavBar() {
   return (
-    <nav className="sticky p-6 px-16 top-0 left-0 right-0 bg-blue">
-      <ul className="flex gap-6 justify-center md:gap-12 sm:justify-end">
+    <nav className="sticky h-20 p-6top-0 left-0 right-0 py-6 bg-blue sm:pr-10">
+      <ul className="flex justify-around sm:gap-10 sm:justify-end">
         <Link
           to="hero"
+          offset={-80}
           spy
           smooth
           duration={500}
@@ -15,6 +16,7 @@ function NavBar() {
         </Link>
         <Link
           to="aboutMe"
+          offset={-80}
           spy
           smooth
           duration={500}
@@ -24,6 +26,7 @@ function NavBar() {
         </Link>
         <Link
           to="myStacks"
+          offset={-80}
           spy
           smooth
           duration={500}
@@ -33,6 +36,7 @@ function NavBar() {
         </Link>
         <Link
           to="myProjects"
+          offset={-80}
           spy
           smooth
           duration={500}
@@ -42,6 +46,7 @@ function NavBar() {
         </Link>
         <Link
           to="contactMe"
+          offset={-80}
           spy
           smooth
           duration={500}
