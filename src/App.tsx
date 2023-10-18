@@ -1,6 +1,7 @@
 import AboutMe from "./components/AboutMe"
 import Hero from "./components/Hero"
 import NavBar from "./components/NavBar"
+import MyStacks from "./components/MyStacks"
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <NavBar />
       <Hero />
       <AboutMe />
+      <MyStacks />
     </div>
   )
 }
