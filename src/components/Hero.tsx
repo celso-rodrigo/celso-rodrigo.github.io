@@ -3,7 +3,7 @@ import Socials from "./Socials"
 
 function Hero() {
   return (
-    <div className="hero flex justify-center bg-heroBg bg-no-repeat bg-cover pb-8 md:h-screen md:pt-28 md:pl-12">
+    <div className="hero flex justify-center bg-heroBg bg-no-repeat bg-cover pb-8 md:min-h-screen md:pt-28 md:pl-12">
       <div
         className="flex flex-col h-1/2 gap-4 pt-8"
       >

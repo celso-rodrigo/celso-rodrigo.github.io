@@ -10,4 +10,8 @@
   .social-icon-container {
     @apply flex justify-center items-center w-10 sm:w-16
   }
+
+  .section-title {
+    @apply text-3xl font-light text-center sm:text-4xl md:text-5xl
+  }
 }

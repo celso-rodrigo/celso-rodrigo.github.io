@@ -8,8 +8,7 @@ import Stack from "./Stack"
 
 function MyStacks() {
   return (
-    <section className="myStacks flex flex-col items-center gap-12 pb-8 bg-black">
-      <hr className="text-gray w-full" />
+    <section className="myStacks flex flex-col items-center gap-12 py-8 bg-black">
       <h1
         className="text-3xl font-light text-white sm:text-4xl md:text-5xl"
       >

@@ -5,7 +5,7 @@ import { ReactSVG } from "react-svg"
 
 function Socials() {
   return (
-    <div className="flex items-center gap-6">
+    <div className="flex items-center gap-8">
       <a href="mailto:celsorodrigoma@gmail.com" target="_blank" className="social-icon-container">
         <ReactSVG src={email} className="fill-black transition hover:scale-110 w-9 sm:w-14" />
       </a>
