@@ -4,10 +4,10 @@ import SectionTitle from "./SectionTitle"
 function AboutMe() {
   return (
     <section
-      className="aboutMe flex flex-col items-center"
+      className="aboutMe flex flex-col items-center shadow-lgUp"
     >
       <SectionTitle title="Sobre mim" />
-      <div className="flex justify-evenly items-center pb-8">
+      <div className="flex justify-evenly items-center pb-16">
         <div className="flex flex-col gap-1 px-12 lg:w-2/5">
           <p>Olá, eu sou Celso Rodrigo, tenho 25 anos e sou um desenvolvedor web front-end apaixonado por games e tecnologia.</p>
           <p>Desde que era bem pequeno, amava passar o tempo na internet jogando, vendo vídeos e descobrindo coisas novas. Foi na internet que encontrei meus melhores amigos, meus passatempos favoritos e também muitas das minhas frustrações. As frustrações surgiam ao perceber como o mundo era vasto e que algumas coisas ainda pareciam impossíveis.</p>

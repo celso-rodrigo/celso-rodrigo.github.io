@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 
 function NavBar() {
   return (
-    <nav className="sticky h-20 p-6 top-0 left-0 right-0 py-6 bg-blue shadow-md sm:pr-10">
+    <nav className="sticky h-20 p-6 top-0 left-0 right-0 py-6 bg-blue shadow-md z-10 sm:pr-10">
       <ul className="flex justify-around sm:gap-10 sm:justify-end">
         <Link
           to="hero"
