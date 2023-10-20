@@ -1,24 +1,25 @@
-import tryCooking from "../assets/tryCooking.png"
 import whatToDo from "../assets/whatToDo.png"
 import newShoppingCart from "../assets/newShoppingCart.png"
 import emailGenerator from "../assets/emailGenerator.png"
+import html5Quiz from "../assets/html5Quiz.png"
+import hangman from "../assets/hangman.png"
 
 const projectsData = [
   {
     id: 1,
-    name: "WhatToDo",
+    name: "HTML5 Quiz",
     description: [""],
-    img: whatToDo,
+    img: html5Quiz,
     repoLink: "https://github.com/celso-rodrigo/whatToDo",
     siteLink: "https://celso-rodrigo.github.io/whatToDo/",
   },
   {
     id: 2,
-    name: "TryCooking",
+    name: "Hangman",
     description: [""],
-    img: tryCooking,
-    repoLink: "https://github.com/celso-rodrigo/TryCooking",
-    siteLink: "",
+    img: hangman,
+    repoLink: "https://github.com/celso-rodrigo/whatToDo",
+    siteLink: "https://celso-rodrigo.github.io/whatToDo/",
   },
   {
     id: 3,
@@ -30,6 +31,14 @@ const projectsData = [
   },
   {
     id: 4,
+    name: "WhatToDo",
+    description: [""],
+    img: whatToDo,
+    repoLink: "https://github.com/celso-rodrigo/whatToDo",
+    siteLink: "https://celso-rodrigo.github.io/whatToDo/",
+  },
+  {
+    id: 5,
     name: "Email Generator",
     description: [""],
     img: emailGenerator,
