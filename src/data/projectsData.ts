@@ -7,23 +7,23 @@ import hangman from "../assets/hangman.png"
 const projectsData = [
   {
     id: 1,
-    name: "HTML5 Quiz",
+    title: "HTML5 Quiz",
     description: [""],
     img: html5Quiz,
-    repoLink: "https://github.com/celso-rodrigo/whatToDo",
-    siteLink: "https://celso-rodrigo.github.io/whatToDo/",
+    repoLink: "https://github.com/celso-rodrigo/html5-quiz",
+    siteLink: "https://celso-rodrigo.github.io/html5-quiz/",
   },
   {
     id: 2,
-    name: "Hangman",
+    title: "Hangman",
     description: [""],
     img: hangman,
-    repoLink: "https://github.com/celso-rodrigo/whatToDo",
-    siteLink: "https://celso-rodrigo.github.io/whatToDo/",
+    repoLink: "https://github.com/celso-rodrigo/hangman",
+    siteLink: "https://celso-rodrigo.github.io/hangman/",
   },
   {
     id: 3,
-    name: "New Shopping Cart",
+    title: "New Shopping Cart",
     description: [""],
     img: newShoppingCart,
     repoLink: "https://github.com/celso-rodrigo/new-shopping-cart",
@@ -31,7 +31,7 @@ const projectsData = [
   },
   {
     id: 4,
-    name: "WhatToDo",
+    title: "WhatToDo",
     description: [""],
     img: whatToDo,
     repoLink: "https://github.com/celso-rodrigo/whatToDo",
@@ -39,7 +39,7 @@ const projectsData = [
   },
   {
     id: 5,
-    name: "Email Generator",
+    title: "Email Generator",
     description: [""],
     img: emailGenerator,
     repoLink: "https://github.com/celso-rodrigo/email-generator",

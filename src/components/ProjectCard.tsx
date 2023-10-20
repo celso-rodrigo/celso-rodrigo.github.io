@@ -1,17 +1,19 @@
+import IProjectDetails from "../interfaces/IProjectDetails";
+
 interface IProps {
-  projectImg: string;
-  projectTitle: string;
+  project: IProjectDetails
+  handleDisplayProject: (project: IProjectDetails) => void
 }
 
-function ProjectCard({projectImg, projectTitle}: IProps) {
+function ProjectCard({project, handleDisplayProject}: IProps) {
   return (
     <button
-      onClick={() => console.log("WIP")}
+      onClick={() => handleDisplayProject(project)}
       className="h-44 transition duration-500 shadow-card hover:scale-110"
     >
       <img
-        src={projectImg}
-        alt={`${projectTitle}.`}
+        src={project.img}
+        alt={`${project.title}.`}
         className="w-full h-full"
       />
     </button>
