@@ -7,7 +7,7 @@ import ProjectDetails from "./ProjectDetails"
 
 function Projects() {
   const [showProjectDetails, setShowProjectDetails] = useState<boolean>(false)
-  const [displayedDetails, setDisplayedDetails] = useState<IProjectDetails>({})
+  const [displayedDetails, setDisplayedDetails] = useState<IProjectDetails>(projectsData[0])
 
   function handleDisplayProject(project: IProjectDetails) {
     if (!showProjectDetails) setDisplayedDetails(project)
