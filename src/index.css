@@ -2,9 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  html {
+    font-family: 'Ubuntu', ui-sans-serif, system-ui;
+  }
+}
+
 @layer components {
   .nav-link {
-    @apply text-white  font-normal cursor-pointer sm:text-2xl;
+    @apply text-white font-tech-mono cursor-pointer sm:text-2xl;
   }
 
   .social-icon-container {
@@ -12,10 +18,10 @@
   }
 
   .section-title {
-    @apply text-3xl font-light text-center sm:text-4xl md:text-5xl
+    @apply text-3xl text-center font-tech-mono sm:text-4xl md:text-5xl
   }
 
   .project-btn {
-    @apply text-white font-bold text-lg text-center py-2 rounded-md bg-red w-72 transition hover:bg-white hover:text-red sm:w-60
+    @apply text-white text-xl text-center py-2 font-tech-mono rounded-md bg-red w-72 transition hover:bg-white hover:text-red sm:w-60
   }
 }

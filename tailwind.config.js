@@ -16,6 +16,7 @@ export default {
       },
       fontFamily: {
 				"ubuntu": ['Ubuntu', 'ui-sans-serif', 'system-ui'],
+        "tech-mono": ['Share Tech Mono', 'monospace'],
 			},
       backgroundImage: {
 				"heroBg": "url('./assets/heroBg.png')",

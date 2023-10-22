@@ -7,7 +7,7 @@ import Projects from "./components/Projects"
 
 function App() {
   return (
-    <div className="font-ubuntu">
+    <div className="">
       <NavBar />
       <Hero />
       <AboutMe />

@@ -39,7 +39,7 @@ function ProjectDetails({project, setShowProjectDetails}: IProps) {
         <ReactSVG src={close} className="fill-white w-10 sm:w-16" />
       </button>
       <h1
-        className="text-white text-3xl font-bold sm:text-5xl"
+        className="text-white text-3xl font-bold font-tech-mono sm:text-5xl"
       >
         {project.title}
       </h1>
