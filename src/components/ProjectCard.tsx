@@ -10,6 +10,8 @@ function ProjectCard({project, handleDisplayProject}: IProps) {
     <button
       onClick={() => handleDisplayProject(project)}
       className="h-44 transition duration-500 shadow-card hover:scale-110"
+      data-aos="fade-right"
+      data-aos-duration={project.id * 100 + 1000}
     >
       <img
         src={project.img}

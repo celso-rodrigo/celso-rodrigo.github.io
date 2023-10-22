@@ -15,12 +15,12 @@ function MyStacks() {
         Principais Stacks
       </h1>
       <div className="flex items-center justify-center px-8 gap-12 flex-wrap">
-        <Stack logo={javascript} title="JavaScript" />
-        <Stack logo={typescript} title="TypeScript" />
-        <Stack logo={react} title="ReactJs" />
-        <Stack logo={git} title="Git" />
-        <Stack logo={html5} title="HTML5" />
-        <Stack logo={css3} title="CSS3" />
+        <Stack logo={javascript} title="JavaScript" animationDuration={500} />
+        <Stack logo={typescript} title="TypeScript" animationDuration={600} />
+        <Stack logo={react} title="ReactJs" animationDuration={700} />
+        <Stack logo={git} title="Git" animationDuration={800} />
+        <Stack logo={html5} title="HTML5" animationDuration={900} />
+        <Stack logo={css3} title="CSS3" animationDuration={1000} />
       </div>
     </section>
   )
